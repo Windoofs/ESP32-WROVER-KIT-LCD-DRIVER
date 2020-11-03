@@ -21,7 +21,6 @@
 #include "freertos/task.h"
 
 
-#ifdef CONFIG_IDF_TARGET_ESP32
 #define LCD_HOST    HSPI_HOST
 #define DMA_CHAN    2
 
@@ -33,7 +32,10 @@
 #define PIN_NUM_DC   21
 #define PIN_NUM_RST  18
 #define PIN_NUM_BCKL 5
-#endif
+
+//To speed up transfers, every SPI transfer sends a bunch of lines. This define specifies how many. More means more memory use,
+//but less overhead for setting up / finishing transfers. Make sure 240 is dividable by this.
+#define PARALLEL_LINES 16
 
 /*
  The LCD needs a bunch of command/argument values to be initialized. They are stored in this struct.
@@ -51,7 +53,7 @@ typedef enum {
 } type_lcd_t;
 
 
-void vDriver_init(spi_device_handle_t spi);
+esp_err_t vDriver_init(void);
+esp_err_t iDriver_writeFramebuffer(uint16_t ***pu16Framebuffer);
 
-void vDriver_spi_pre_transfer_callback(spi_transaction_t *t);
 #endif /* __DRIVER_H */

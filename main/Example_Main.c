@@ -13,35 +13,38 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-
 #include "LCD.h"
 
+/**
+ * @fn void app_main(void)
+ * @brief main task
+ * @param void
+ * @return void
+ * @author Hendrik Schutter
+ * @date 3.11.2020
+ */
 void app_main(void)
 {
     printf("Hello World!\n");
 
-    vLCD_init();
+    iLCD_init();
 
-    
-    while(1){
-        
-    clear_framebuffer(COLOR_RED);    
-    vTaskDelay(1000 / portTICK_RATE_MS);
-    
-    clear_framebuffer(COLOR_GREEN);    
-    vTaskDelay(1000 / portTICK_RATE_MS);
-    
-  
-    clear_framebuffer(COLOR_BLUE);    
-    vTaskDelay(1000 / portTICK_RATE_MS);
-    
-    clear_framebuffer(COLOR_WHITE);    
-    vTaskDelay(1000 / portTICK_RATE_MS);
-    
-    clear_framebuffer(COLOR_BLACK);    
-    vTaskDelay(1000 / portTICK_RATE_MS);
-        
+    while(1) {
+        iLCD_clearFramebuffer(COLOR_RED);
+        vTaskDelay(1000 / portTICK_RATE_MS);
+
+        iLCD_clearFramebuffer(COLOR_GREEN);
+        vTaskDelay(1000 / portTICK_RATE_MS);
+
+        iLCD_clearFramebuffer(COLOR_BLUE);
+        vTaskDelay(1000 / portTICK_RATE_MS);
+
+        iLCD_clearFramebuffer(COLOR_WHITE);
+        vTaskDelay(1000 / portTICK_RATE_MS);
+
+        iLCD_clearFramebuffer(COLOR_BLACK);
+        vTaskDelay(1000 / portTICK_RATE_MS);
     }
-    
+
     printf("end\n");
 }
