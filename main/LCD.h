@@ -4,8 +4,6 @@
   @author  Hendrik Schutter
   @version V1.0
   @date    03.11.2020
-
-
 */
 
 #ifndef __LCD_H
@@ -26,5 +24,6 @@
 
 esp_err_t iLCD_init(void);
 esp_err_t iLCD_clearFramebuffer(uint16_t u16Color);
+esp_err_t iLCD_writeString(uint16_t u16xPos, uint16_t u16yPos, char *pcText, uint16_t u16ColorFont, uint16_t u16ColorBackground);
 
 #endif /* __LCD_H */

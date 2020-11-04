@@ -1,0 +1,6 @@
+<map id="vDriver_GetId" name="vDriver_GetId">
+<area shape="rect" id="node1" title="get LCD driver chip id" alt="" coords="391,5,493,32"/>
+<area shape="rect" id="node2" href="$_driver_8h.html#adb1369972e80eb05d5e831cbc7cf3d4f" title="Initialize the driver." alt="" coords="256,5,343,32"/>
+<area shape="rect" id="node3" href="$_l_c_d_8h.html#a4d0719889f64bf0c82dd5adc3a26adf3" title="init" alt="" coords="132,5,208,32"/>
+<area shape="rect" id="node4" href="$_example___main_8c.html#a630544a7f0a2cc40d8a7fefab7e2fe70" title="main task" alt="" coords="5,5,84,32"/>
+</map>

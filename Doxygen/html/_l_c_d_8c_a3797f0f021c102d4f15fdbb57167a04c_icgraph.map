@@ -1,0 +1,5 @@
+<map id="vLCD_writeChar" name="vLCD_writeChar">
+<area shape="rect" id="node1" title="write string/text into framebuffer" alt="" coords="301,5,420,32"/>
+<area shape="rect" id="node2" href="$_l_c_d_8h.html#a305dd37530a1617090bbc448e2e40d26" title="write string/text into framebuffer" alt="" coords="132,5,253,32"/>
+<area shape="rect" id="node3" href="$_example___main_8c.html#a630544a7f0a2cc40d8a7fefab7e2fe70" title="main task" alt="" coords="5,5,84,32"/>
+</map>

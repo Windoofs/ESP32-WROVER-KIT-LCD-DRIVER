@@ -1,0 +1,8 @@
+<map id="iLCD_writeString" name="iLCD_writeString">
+<area shape="rect" id="node1" title="write string/text into framebuffer" alt="" coords="5,81,127,108"/>
+<area shape="rect" id="node2" href="$_driver_8c.html#a62a79453d5cfaf0693a21714162f22d4" title="write framebuffer to LCD via SPI" alt="" coords="175,56,339,83"/>
+<area shape="rect" id="node6" href="$_l_c_d_8c.html#a3797f0f021c102d4f15fdbb57167a04c" title="write string/text into framebuffer" alt="" coords="197,107,316,133"/>
+<area shape="rect" id="node3" href="$_driver_8c.html#a3d6cd2f0685caf993fd7455dd100dd7c" title="send finish after line" alt="" coords="411,5,564,32"/>
+<area shape="rect" id="node4" href="$_driver_8c.html#ab611c2d5911c284b757197882ea227be" title="send line to lcd chip" alt="" coords="425,56,550,83"/>
+<area shape="rect" id="node5" href="$_driver_8c.html#a3ce1541687c13e00a1cc1d4d7ff564aa" title="Get the pixel data for a set of lines (with implied line size of 320)" alt="" coords="387,107,588,133"/>
+</map>

@@ -4,8 +4,6 @@
   @author  Hendrik Schutter
   @version V1.0
   @date    03.11.2020
-
-
 */
 
 #ifndef __DRIVER_H
@@ -20,7 +18,6 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-
 #define LCD_HOST    HSPI_HOST
 #define DMA_CHAN    2
 
@@ -32,6 +29,9 @@
 #define PIN_NUM_DC   21
 #define PIN_NUM_RST  18
 #define PIN_NUM_BCKL 5
+
+#define LCD_WIDTH    320
+#define LCD_HIGH     240
 
 //To speed up transfers, every SPI transfer sends a bunch of lines. This define specifies how many. More means more memory use,
 //but less overhead for setting up / finishing transfers. Make sure 240 is dividable by this.
@@ -51,7 +51,6 @@ typedef enum {
     LCD_TYPE_ST,
     LCD_TYPE_MAX,
 } type_lcd_t;
-
 
 esp_err_t vDriver_init(void);
 esp_err_t iDriver_writeFramebuffer(uint16_t ***pu16Framebuffer);

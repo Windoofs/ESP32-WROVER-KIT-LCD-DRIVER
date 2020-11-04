@@ -1,0 +1,17 @@
+<map id="app_main" name="app_main">
+<area shape="rect" id="node1" title="main task" alt="" coords="5,227,84,253"/>
+<area shape="rect" id="node2" href="$_l_c_d_8c.html#a95f7c4fb0d7de1cb623b52031aad3fe8" title="clear complete framebuffer with a color" alt="" coords="132,227,289,253"/>
+<area shape="rect" id="node7" href="$_l_c_d_8c.html#a4d0719889f64bf0c82dd5adc3a26adf3" title="init" alt="" coords="173,164,249,191"/>
+<area shape="rect" id="node14" href="$_l_c_d_8c.html#a305dd37530a1617090bbc448e2e40d26" title="write string/text into framebuffer" alt="" coords="150,277,271,304"/>
+<area shape="rect" id="node3" href="$_driver_8c.html#a62a79453d5cfaf0693a21714162f22d4" title="write framebuffer to LCD via SPI" alt="" coords="343,252,507,279"/>
+<area shape="rect" id="node4" href="$_driver_8c.html#a3d6cd2f0685caf993fd7455dd100dd7c" title="send finish after line" alt="" coords="586,208,739,235"/>
+<area shape="rect" id="node5" href="$_driver_8c.html#ab611c2d5911c284b757197882ea227be" title="send line to lcd chip" alt="" coords="600,259,725,285"/>
+<area shape="rect" id="node6" href="$_driver_8c.html#a3ce1541687c13e00a1cc1d4d7ff564aa" title="Get the pixel data for a set of lines (with implied line size of 320)" alt="" coords="562,309,763,336"/>
+<area shape="rect" id="node8" href="$_l_c_d_8c.html#a13ff792cd544fe043593ceb2a8150c3c" title="allocate framebuffer" alt="" coords="337,164,512,191"/>
+<area shape="rect" id="node9" href="$_driver_8c.html#adb1369972e80eb05d5e831cbc7cf3d4f" title="Initialize the driver." alt="" coords="381,107,468,133"/>
+<area shape="rect" id="node10" href="$_driver_8c.html#a3ce4cd1bae3e49f2d06a880446db54d4" title="Send a command to the LCD." alt="" coords="813,107,936,133"/>
+<area shape="rect" id="node11" href="$_driver_8c.html#a066209485105862c60c5f9393caa48be" title="Send data to the LCD." alt="" coords="601,5,725,32"/>
+<area shape="rect" id="node12" href="$_driver_8c.html#acfaa6e6c39d79e04fadf512cf9ca3944" title="get LCD driver chip id" alt="" coords="611,157,714,184"/>
+<area shape="rect" id="node13" href="$_driver_8c.html#ae2d5a9bae2c3a62f89e2cc83cc36a61e" title="Pre Transfer Callback." alt="" coords="560,107,765,133"/>
+<area shape="rect" id="node15" href="$_l_c_d_8c.html#a3797f0f021c102d4f15fdbb57167a04c" title="write string/text into framebuffer" alt="" coords="365,303,484,329"/>
+</map>

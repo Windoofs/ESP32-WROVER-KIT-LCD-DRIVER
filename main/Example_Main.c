@@ -27,24 +27,18 @@ void app_main(void)
 {
     printf("Hello World!\n");
 
-    iLCD_init();
+    iLCD_init(); //init lcd screen
+
+    iLCD_clearFramebuffer(COLOR_BLACK); //set complete screen to desired color
+
+    vTaskDelay(1000 / portTICK_RATE_MS); //wait one sec
+
+    iLCD_writeString(42,42,"Hello World!",COLOR_WHITE,COLOR_BLACK); //Write text to screen
+
+    iLCD_writeString(42,50,"ESP32",COLOR_WHITE,COLOR_GREEN); //Write text to screen
 
     while(1) {
-        iLCD_clearFramebuffer(COLOR_RED);
-        vTaskDelay(1000 / portTICK_RATE_MS);
-
-        iLCD_clearFramebuffer(COLOR_GREEN);
-        vTaskDelay(1000 / portTICK_RATE_MS);
-
-        iLCD_clearFramebuffer(COLOR_BLUE);
-        vTaskDelay(1000 / portTICK_RATE_MS);
-
-        iLCD_clearFramebuffer(COLOR_WHITE);
-        vTaskDelay(1000 / portTICK_RATE_MS);
-
-        iLCD_clearFramebuffer(COLOR_BLACK);
-        vTaskDelay(1000 / portTICK_RATE_MS);
+        //run more code here
     }
 
-    printf("end\n");
 }

@@ -1,0 +1,7 @@
+<map id="iLCD_clearFramebuffer" name="iLCD_clearFramebuffer">
+<area shape="rect" id="node1" title="clear complete framebuffer with a color" alt="" coords="5,56,163,83"/>
+<area shape="rect" id="node2" href="$_driver_8c.html#a62a79453d5cfaf0693a21714162f22d4" title="write framebuffer to LCD via SPI" alt="" coords="211,56,375,83"/>
+<area shape="rect" id="node3" href="$_driver_8c.html#a3d6cd2f0685caf993fd7455dd100dd7c" title="send finish after line" alt="" coords="447,5,600,32"/>
+<area shape="rect" id="node4" href="$_driver_8c.html#ab611c2d5911c284b757197882ea227be" title="send line to lcd chip" alt="" coords="461,56,586,83"/>
+<area shape="rect" id="node5" href="$_driver_8c.html#a3ce1541687c13e00a1cc1d4d7ff564aa" title="Get the pixel data for a set of lines (with implied line size of 320)" alt="" coords="423,107,624,133"/>
+</map>

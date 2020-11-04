@@ -5,7 +5,7 @@
   @version V1.0
   @date    03.11.2020
 
-
+ This code used SPI to write data to the LCD driver like ILI9341 or ST7789V.
 */
 
 #include "Driver.h"

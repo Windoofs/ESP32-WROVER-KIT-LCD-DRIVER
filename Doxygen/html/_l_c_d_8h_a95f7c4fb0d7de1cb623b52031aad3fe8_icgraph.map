@@ -1,0 +1,4 @@
+<map id="iLCD_clearFramebuffer" name="iLCD_clearFramebuffer">
+<area shape="rect" id="node1" title="clear complete framebuffer with a color" alt="" coords="132,5,289,32"/>
+<area shape="rect" id="node2" href="$_example___main_8c.html#a630544a7f0a2cc40d8a7fefab7e2fe70" title="main task" alt="" coords="5,5,84,32"/>
+</map>

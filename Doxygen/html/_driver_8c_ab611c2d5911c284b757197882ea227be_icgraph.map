@@ -1,0 +1,7 @@
+<map id="iDriver_sendLines" name="iDriver_sendLines">
+<area shape="rect" id="node1" title="send line to lcd chip" alt="" coords="549,31,675,57"/>
+<area shape="rect" id="node2" href="$_driver_8h.html#a62a79453d5cfaf0693a21714162f22d4" title="write framebuffer to LCD via SPI" alt="" coords="337,31,501,57"/>
+<area shape="rect" id="node3" href="$_l_c_d_8h.html#a95f7c4fb0d7de1cb623b52031aad3fe8" title="clear complete framebuffer with a color" alt="" coords="132,5,289,32"/>
+<area shape="rect" id="node5" href="$_l_c_d_8h.html#a305dd37530a1617090bbc448e2e40d26" title="write string/text into framebuffer" alt="" coords="150,56,271,83"/>
+<area shape="rect" id="node4" href="$_example___main_8c.html#a630544a7f0a2cc40d8a7fefab7e2fe70" title="main task" alt="" coords="5,31,84,57"/>
+</map>

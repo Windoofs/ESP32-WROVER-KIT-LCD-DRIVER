@@ -1,0 +1,9 @@
+<map id="iLCD_init" name="iLCD_init">
+<area shape="rect" id="node1" title="init" alt="" coords="5,31,81,57"/>
+<area shape="rect" id="node2" href="$_l_c_d_8c.html#a13ff792cd544fe043593ceb2a8150c3c" title="allocate framebuffer" alt="" coords="129,5,304,32"/>
+<area shape="rect" id="node3" href="$_driver_8c.html#adb1369972e80eb05d5e831cbc7cf3d4f" title="Initialize the driver." alt="" coords="173,56,260,83"/>
+<area shape="rect" id="node4" href="$_driver_8c.html#a3ce4cd1bae3e49f2d06a880446db54d4" title="Send a command to the LCD." alt="" coords="605,31,728,57"/>
+<area shape="rect" id="node5" href="$_driver_8c.html#a066209485105862c60c5f9393caa48be" title="Send data to the LCD." alt="" coords="393,31,517,57"/>
+<area shape="rect" id="node6" href="$_driver_8c.html#acfaa6e6c39d79e04fadf512cf9ca3944" title="get LCD driver chip id" alt="" coords="403,81,506,108"/>
+<area shape="rect" id="node7" href="$_driver_8c.html#ae2d5a9bae2c3a62f89e2cc83cc36a61e" title="Pre Transfer Callback." alt="" coords="352,132,557,159"/>
+</map>
